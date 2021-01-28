@@ -25,6 +25,8 @@
 #define GRBL_VERSION "1.1f"
 #define GRBL_VERSION_BUILD "20180715" //20170801
 
+#define  STM32F103C8
+
 #if !defined(STM32F103C8) && !defined(WIN32)
 #define AVRTARGET
 #endif

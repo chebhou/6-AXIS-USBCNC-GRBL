@@ -38,13 +38,13 @@
 #define ABC_AXIS_EXAMPLE
 
 #ifdef WIN32
-#define CPU_MAP_WIN32
+  #define CPU_MAP_WIN32
 #endif
 #ifdef AVRTARGET
-#define CPU_MAP_ATMEGA328P // Arduino Uno CPU
+  #define CPU_MAP_ATMEGA328P // Arduino Uno CPU
 #endif
 #ifdef STM32F103C8
-//#define CPU_MAP_STM32F103
+  #define CPU_MAP_STM32F103
 #endif
 
 // --- YSV 22-06-2018
